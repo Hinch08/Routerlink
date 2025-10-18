@@ -45,9 +45,6 @@ nav{
 .nav-links li a:hover{
     color:#38bdf8;
 }
-.btns{
-    display:flex;
-}
 .btn-login{
     padding:0.5rem 1.5rem;
     border-radius: 30px;
