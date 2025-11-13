@@ -295,3 +295,126 @@ html {
 .social-links i {
   font-size: 20px;
 }
+/* ===========================
+   📱 MEDIA QUERIES
+   =========================== */
+
+/* Medium screens (tablets & small laptops) */
+@media (max-width: 992px) {
+  nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1rem 0;
+  }
+
+  .btn-login, .btn-signup {
+    margin: 0.5rem;
+  }
+
+  .hero-container {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 4rem 5%;
+  }
+
+  .hero-text h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+  }
+
+  .hero-image img {
+    max-width: 400px;
+    margin-bottom: 2rem;
+  }
+
+  .services-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service {
+    width: 90%;
+  }
+}
+
+/* Small screens (phones) */
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .btn-login, .btn-signup {
+    width: 80%;
+    padding: 0.6rem 0;
+  }
+
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .hero-text p {
+    font-size: 0.95rem;
+  }
+
+  .btn-primary {
+    width: 80%;
+    padding: 0.8rem 0;
+  }
+
+  .service {
+    width: 100%;
+  }
+
+  .about, .contact {
+    padding: 30px 10px;
+  }
+
+  .about h3, .contact h2 {
+    font-size: 1.5rem;
+  }
+
+  .social-links {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .social-links a {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+/* Large screens (desktop) */
+@media (min-width: 1200px) {
+  .hero-text h1 {
+    font-size: 3.5rem;
+  }
+
+  .hero-text p {
+    font-size: 1.25rem;
+  }
+
+  .service {
+    width: 300px;
+  }
+}
+

@@ -45,3 +45,10 @@ nav{
 }
 .btn-signup:hover{
     background:#38bdf8;
+
+    WHAT are the components of an api:
+    API KEY
+    endpoint/routes
+    headers:A part of a request.
+    -ms-content-zoom-snap-type: 
+    ;;    
